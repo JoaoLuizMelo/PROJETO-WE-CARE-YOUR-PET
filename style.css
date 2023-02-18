@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+
+    margin-top: 38px;
+    margin-left: 76px;
+}
+
+a {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 23px;
+
+}
+
+.login {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    border: none;
+    padding: 6px;
+    width: 130px;
+
+}
+
+
+body {
+    width: 100vw;
+}
+
+
+img {
+    width: 568px;
+    margin-top: 138px;
+    margin-left: 125px;
+    margin-right: 86px;
+
+}
+
+.texto {
+    width: 513px;
+}
+
+
+img,
+.texto {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #515151;
+    text-align: center;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    color: #515151;
+    text-align: left;
+    margin: 0px;
+}
+
+p {
+
+    font-size: 24px;
+    font-weight: 400;
+    color: #848484;
+    text-align: justify;
+}
+
+.explore {
+    background-color: #ADFF00;
+    border-radius: 20.5px;
+    border: none;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 15px;
+    width: 239px;
+
+}
+
+@media screen and (max-width:1300px) {
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 61px;
+        color: #515151;
+        text-align: center;
+        margin: 0px auto;
+        position: static;
+        display: block;
+        width: 263px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        color: #515151;
+        text-align: center;
+        margin: 7px auto 17px;
+        line-height: 37px;
+        width: 232px;
+
+    }
+
+    p {
+        display: none;
+
+    }
+
+    img,
+    .texto {
+        display: block;
+        position: static;
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+        display: block;
+        position: static;
+        margin: 149px auto 24px;
+    }
+
+    .texto {
+        display: block;
+        position: static;
+        margin: 0 auto;
+        width: 263px;
+    }
+
+    .explore {
+        margin: 0;
+        background-color: #ADFF00;
+        border-radius: 20.5px;
+        border: none;
+        color: #000000;
+        font-size: 28px;
+        font-weight: 700;
+        padding: 15px;
+        width: 239px;
+        display: block;
+        position: static;
+        margin: 0 auto;
+    }
+
+
+
+}
